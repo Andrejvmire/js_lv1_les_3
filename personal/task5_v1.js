@@ -15,10 +15,10 @@ function setArray() {
   var len,
     numbs = [];
 
-  len = Math.round(Math.random() * 100);
+  len = Math.round( Math.random() * 100 );
 
-  for (var i = 0; i < len; i++) {
-    numbs[i] = Math.round(Math.random() * 1000);
+  for ( var i = 0; i < len; i++  ) {
+    numbs[ i ] = Math.round( Math.random() * 1000 );
   }
   return numbs;
 }
@@ -29,14 +29,14 @@ function setArray() {
  *
  */
 
-function getSquare( array = [] ) {
+function getSquare(  array = []) {
   var
     square_root = [],
     len = array.length;
-  for ( var i = 0; i < len; i++ ) {
+  for ( var i = 0; i < len; i++  ) {
     square_root[ i ] = Math.sqrt( array[ i ] );
   }
   return square_root;
 }
 
-console.log( getSquare( setArray () ) );
+console.log( getSquare( setArray() ) );
