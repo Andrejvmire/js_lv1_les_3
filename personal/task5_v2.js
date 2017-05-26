@@ -24,12 +24,12 @@ function setArray() {
 }
 
 /**
- * вычисляет корень квадратный из каждого элемента массива
+ * вычисляет корень квадратный из каждого элемента массива в цикле While
  * @param {Array} принимает обрабатываемый массив
  *
  */
 
-function getSquare(  array = []) {
+function getSquareInWhile(  array = [] ) {
   var
     square_root = [],
     len = array.length;
